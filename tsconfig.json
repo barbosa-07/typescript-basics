@@ -1,14 +1,13 @@
 {
-    "compilerOptions": {
-        // Generate d.ts files
-        "declaration": true,
-        "outDir": "dist", // where to put the ts file
-        "target": "ES2017", //which level of JS support to target
-        "module": "CommonJS"
-        
-    },
-    
-    // 
-    "include": ["src"], // which files to compile
-    
+  "compilerOptions": {
+    // Generate d.ts files
+    "declaration": true,
+    "outDir": "dist", // where to put the ts file
+    "target": "ES2017", //which level of JS support to target
+    "strict": true,
+    "noImplicitAny": true
+  },
+
+  //
+  "include": ["src"] // which files to compile
 }

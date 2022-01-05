@@ -3,7 +3,7 @@
 let value = 10;
 
 // this line will give error
-value = "this is book";
+// value = "this is book";
 
 // literal type { this cant be reassigned and changed }
 const age = 6;
@@ -17,21 +17,21 @@ let startTime = new Date();
 let endTime: Date;
 
 setTimeout(() => {
-  endTime = 0;
+  //   endTime = 0;
   endTime = new Date();
 }, RANDOM_WAIT_TIME);
 
 // function
 
-function add(a: number, b: number): number {}
+// function add(a: number, b: number): number {}
 
-const result = add(1, "3");
-const result1 = add(1, 3);
+// const result = add(1, "3");
+// const result1 = add(1, 3);
 
-const p = new Promise(result);
+// const p = new Promise(result);
 
-add(2, add(2, 3));
-add(2, add(2, 3));
-add(2, add(2, 3));
-add(2, add(2, 3));
-add(2, add(2, 3));
+// add(2, add(2, 3));
+// add(2, add(2, 3));
+// add(2, add(2, 3));
+// add(2, add(2, 3));
+// add(2, add(2, 3));
