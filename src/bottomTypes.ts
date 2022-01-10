@@ -48,6 +48,8 @@ if (myBook instanceof English) {
   throw new UnreachabelError(myBook, `Unexpected book Type ${myBook}`);
 }
 
+//*  NOTE  Technically in JS or TS this would be { y| -Number.MAX_VALUE <= y <= Number.MAX_VALUE }, but if you know enough to ask, you probably don’t need this footnote…!
+
 /* 
 Now, one of three things will happen in that final else block
 
